@@ -217,8 +217,10 @@ if __name__ == "__main__":
     print(f"🔑 Each request will use {TOKENS_PER_REQUEST} tokens")
     print(f"🌐 API pronta para receber visitas!")
     print(f"🔑 Server running on http://0.0.0.0:5000")
-    print(f"Complete API with ᴹᴿ〲Ꮪᴏʟᴀɴᴋɪ࿐")
-    app.run(host="0.0.0.0", port=5070)
+    print(f"Complete API with ᴹᴿ〲Ꮪᴏʟᴀɴᴋɪ࿐")  
+import os
+port = int(os.environ.get("PORT", 10000))
+app.run(host="0.0.0.0", port=port)
 
 
 # Credit @JOBAYAR_AHMED
