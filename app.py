@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # Global variables for token routing
 token_rotation = {}
-TOKENS_PER_REQUEST = 20
+TOKENS_PER_REQUEST = 5
 
 def load_all_tokens(server_name):
     try:
