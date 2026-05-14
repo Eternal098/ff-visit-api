@@ -165,7 +165,7 @@ def send_visits():
     
     # Get tokens for this specific request using rotation system
     tokens = get_tokens_for_request(region)
-    target_success = 1000
+    target_success = 100
 
     if not tokens:
         return jsonify({"error": "❌ No valid tokens found for this region"}), 500
