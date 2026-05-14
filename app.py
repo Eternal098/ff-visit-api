@@ -215,7 +215,7 @@ def token_status(server):
 if __name__ == "__main__":
     print(f"🔑 Token Rotation System Activated")
     print(f"🔑 Each request will use {TOKENS_PER_REQUEST} tokens")
-    print(f"🌐 API Endpoint: http://0.0.0.0:5000/visit?region={region}&uid={uid}")
+    print(f"🌐 API pronta para receber visitas!")
     print(f"🔑 Server running on http://0.0.0.0:5000")
     print(f"Complete API with ᴹᴿ〲Ꮪᴏʟᴀɴᴋɪ࿐")
     app.run(host="0.0.0.0", port=5070)
